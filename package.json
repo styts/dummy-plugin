@@ -1,0 +1,36 @@
+{
+  "name": "dummy-plugin",
+  "version": "1.0.0",
+  "description": "For testing the GUI interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "hooks": {
+    "export": true
+  },
+  "options": [
+    {
+      "field": "string",
+      "default": "default value",
+      "hint": "A string field with a default value",
+      "label": "String"
+    },
+    {
+      "field": "number",
+      "type": "number",
+      "default": 42,
+      "hint": "A number field with a default value (42)",
+      "label": "Number"
+    },
+    {
+      "field": "boolean",
+      "type": "boolean",
+      "default": true,
+      "hint": "A boolean field with a default 'true' value",
+      "label": "Boolean"
+    }
+  ],
+  "author": "",
+  "license": "ISC"
+}
