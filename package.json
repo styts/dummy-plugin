@@ -10,6 +10,9 @@
   "hooks": {
     "export": true
   },
+  "repository": {
+    "url": "https://github.com/styts/dummy-plugin"
+  },
   "options": [
     {
       "field": "string",
