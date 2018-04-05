@@ -1,5 +1,6 @@
 {
   "name": "dummy-plugin",
+  "label": "Dummy Plugin",
   "version": "1.0.0",
   "description": "For testing the GUI interface.",
   "main": "index.js",
